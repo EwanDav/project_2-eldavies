@@ -1,7 +1,10 @@
-cmake_minimum_required(VERSION 3.15)
-project(project_02)
+cmake_minimum_required(VERSION 3.26)
+project(song)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(project_02 main.cpp Stack.h Node.h)
-
+add_executable(song main.cpp Song.h
+        Queue.h
+        Node.h
+        Stack.h
+)

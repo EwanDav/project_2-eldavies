@@ -1,3 +1,4 @@
+
 /**
  * Node class header
  * CS 124
@@ -15,8 +16,8 @@
  *   - Slimmed down comments
  */
 
-#ifndef NODE_H
-#define NODE_H
+#ifndef WEEK2_NODE_H
+#define WEEK2_NODE_H
 
 /**
  * Represents one node to be used in a linked list
@@ -59,4 +60,4 @@ public:
     }
 };
 
-#endif // NODE_H
+#endif // WEEK2_NODE_H
